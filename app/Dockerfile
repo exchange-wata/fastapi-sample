@@ -6,7 +6,7 @@ RUN apk --update add \
     linux-headers \
     build-base \
     libffi-dev \
-    libssl-dev \
+    openssl-dev \
     bash
 RUN pip install --upgrade pip
 COPY ./ /app
